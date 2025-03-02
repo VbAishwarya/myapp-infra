@@ -1,0 +1,16 @@
+# Ignore Helm-generated files
+*.tgz
+helm-unittest.xml
+
+# Ignore Kubernetes secrets and config files
+secrets.yaml
+config.yaml
+
+# Ignore local Helm release history
+.history/
+
+# Ignore logs and temporary files
+*.log
+*.swp
+*.bak
+.DS_Store
